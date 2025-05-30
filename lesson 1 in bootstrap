@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    .grid-box {
+      border: 1px solid #000;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .red { background-color: red; }
+    .lavender { background-color: lavender; color: #000; }
+    .lavenderblush { background-color: lavenderblush; color: #000; }
+    .grey { background-color: lightgrey; color: #000; }
+    .cyan { background-color: lightcyan; color: #000; }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Hi Guys!</h1>
+    <p>This is the example for containers made using HTML, CSS, and Bootstrap.</p>
+
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="col-md-8 col-12 grid-box red">col-md-8</div>
+      <div class="col-md-4 col-12 grid-box lavender">col-md-4</div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="col-lg-6 col-md-12 grid-box lavenderblush">col-lg-6</div>
+      <div class="col-md-6 col-12 grid-box grey">col-md-6</div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row">
+      <div class="col-7 grid-box cyan">col-7</div>
+      <div class="col-5 grid-box grey">col-5</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
