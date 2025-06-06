@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Border and container</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container border 5px solid balck">
+        <h1>MY HOBBY</h1>
+        <p>A hobby is a regular activity done for enjoyment during one's leisure time, which can include a variety of pursuits.I have 2 hobbies in my daily life</p>
+    </div>
+
+    <div class="container bg-primary text-white">
+        <h1>HOBBY NO.1 [Watching anime]</h1>
+        <p>As a creative hobby, anime inspires fans to express themselves through art, cosplay, and even fanfiction. The influence of anime on personal development cannot be overstated, as it has helped many fans overcome personal struggles and find a sense of belonging in the community.</p>
+        
+    </div>
+    <div class="container bg-danger text-white">
+        <h1>HOBBY NO.2 [Pinting]</h1>
+        <p>My hobby is painting, a passion that fills my life with joy and tranquility. I enjoy experimenting with different colors and techniques, creating vibrant landscapes, portraits, and abstract art. Painting allows me to express my creativity and provides a peaceful escape from the daily grind.</p>
+
+    </div>
+</body>
+</html>
